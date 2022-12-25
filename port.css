@@ -1,0 +1,671 @@
+*{
+	font-family: 'Arvo', serif;
+
+}
+
+
+.navbar-nav{
+	margin-left: auto;
+   font-weight: 600;
+
+}
+
+.navbar-nav li{
+	margin-right: 20px;
+}
+
+.navbar-brand{
+   margin-left: 15px;
+}
+
+.nav-item{
+
+    border-radius: 5px;
+    transition: background-color 1s;	
+}
+
+.nav-item:hover{
+  background-color:rgb(123, 119, 128);
+}
+
+
+
+
+
+.content-container{
+	content: '';
+	position: relative;
+	height: 1900px;
+	width: 300px;
+	top: 0px;
+	left: 0;
+
+}
+
+
+
+
+
+.content-container .contents{
+	position: relative;
+	z-index: 5;
+	top: 150px;
+}
+
+#intro{
+	border: #f1f1f1;
+    border-radius: 10px;
+    overflow: none;
+    font-size: 18px;
+    width: 110%;
+
+}
+
+
+#hey{
+	margin-left: 10px;
+}
+
+#im{
+	margin-left: 10px;
+}
+
+
+
+ 
+
+.linkedin{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	margin-left: 10px;
+	
+}
+
+.linkedin img{
+	padding: 0 0 10px 0;
+}
+
+
+
+
+.fb{
+	
+	display: inline-block;
+	height: 40px;
+	width: 40px;	
+   margin-left: 100px;
+}
+
+.fb img{
+	padding: 0 0 10px 0;
+}
+
+
+
+
+.git{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+   margin-left: 100px;
+}
+
+.git img{
+	padding: 0 0 10px 0;
+}
+
+
+
+
+
+
+.img1{
+	float: right;
+	margin-top: -80px;
+	margin-right: -5%;
+
+	
+}
+
+
+
+
+
+#home{
+	margin-top: -1400px;
+    border: #f1f1f1;
+    border-radius: 10px;
+    padding: 20px 20px 20px 20px;
+    font-size: 18px;
+    font-weight: 500;
+    
+  
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    
+}
+
+#home h2{
+	font-weight: 500;
+	margin-bottom: 15px;
+	color: rebeccapurple;
+}
+
+@media(max-width: 1044px){
+ 
+ .img1{
+ 	
+ 	margin-top: -30px;
+ 	margin-left: auto;
+ 	margin-right: 25%;
+
+ }
+ 
+ #intro{
+ 	margin-top: 400px;
+ 	position: absolute;
+ 	margin-left:5%;
+ 	margin-right: 20%;
+ 	text-align: center;
+ }
+
+ #home{
+ 	 top :200px;
+    position: relative;
+
+ }
+ #blog{
+   top: 100px;
+ 	position: relative;
+ }
+ #qualify{
+    top: 200px;
+    position: relative;
+
+ }
+
+ #work{
+    top: 200px;
+    position: relative;
+
+ }
+}
+
+
+@media(min-width: 100px) and (max-width: 800px){
+ 
+ .navbar{
+ 	width: 110%;
+ }
+
+ .img1{
+ 	width: 320px;
+ 	margin-left: 35px;
+ 	float: left;
+ 
+
+ }
+ 
+ #intro{
+ 	margin-top: 400px;
+ 	position: absolute;
+ 	margin-left:20px;
+ 	margin-right: auto;
+ 	text-align: center;
+ }
+
+ .fb{
+ 	margin-left: 50px;
+ }
+
+ .git{
+ 	margin-left: 50px;
+ }
+
+
+
+ #home{
+ 	top :250px;
+ 	margin-left: 20px;
+    position: relative;
+
+ }
+ #blog{
+   top: 330px;
+ 	position: relative;
+ }
+
+ #qualify{
+    top: 200px;
+    margin-left: 20px;
+    position: relative;
+
+ }
+
+ #work{
+    top: 50px;
+    position: relative;
+
+ }
+}
+
+
+
+
+
+
+
+
+#blog{
+ 
+ 	margin-top: -1000px;
+   
+}
+
+
+.skills h2{
+	
+	text-align: center;
+	color: #4A6163;
+}
+
+
+.skills h3{
+	font-size: 20px;
+}
+
+.skills li{
+   margin: 20px 0;
+   font-size: 18px;
+   text-decoration: none;
+   list-style: none;
+}
+
+
+.skills h3{
+	margin-left: 25px;
+	display: inline;
+}
+
+.skills #percentage1{
+	float: right;
+
+}
+
+.skills #percentage2{
+	float: right;
+}
+
+.skills #percentage3{
+	float: right;
+}
+
+.skills #percentage4{
+	float: right;
+}
+
+.bar{
+   margin-left: 25px;
+	width: 500px;
+	border-radius: 3px;
+	box-shadow: 0 0 5px #4A6163;
+   display: inline-block;
+	
+}
+
+
+.bar span{
+	background-color: #4A6163;
+	border: 3px solid rgba(0,0,0,0);
+	border-radius: 3px;
+	float: left;
+	
+
+}
+
+.ds{
+
+	width: 60%;
+	animation: ds 2s;
+}
+
+.algo{
+	width: 40%;
+	animation: algo 2s;
+}
+
+.web{
+	width: 55%;
+	animation: web 2s;
+}
+
+.others{
+	width: 55%;
+	animation: others 2s;
+}
+
+
+
+@keyframes ds{
+	0%{
+		width: 0%;
+	}
+	100%{
+		width: 60%;
+	}
+}
+
+@keyframes algo{
+	0%{
+		width: 0%;
+	}
+	100%{
+		width: 40%;
+	}
+}
+
+@keyframes web{
+	0%{
+		width: 0%;
+	}
+	100%{
+		width: 55%;
+	}
+}
+
+@keyframes others{
+	0%{
+		width: 0%;
+	}
+	100%{
+		width: 55%;
+	}
+}
+
+
+#qualify{
+ 
+ 	margin-top: -500px;
+   
+}
+
+#qualify h2{
+	text-align: center;
+
+}
+
+.tree{
+	margin: auto;
+}
+
+.circle{
+	margin-top: 20px;
+	height: 20px;
+	width: 20px;
+	background-color: royalblue;
+	border-radius: 50%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.rectangle{
+	
+	height: 80px;
+	width: 5px;
+	background-color: lightgrey;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.circle1{
+	
+	height: 20px;
+	width: 20px;
+	background-color: royalblue;
+	border-radius: 50%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.rectangle1{
+	
+	height: 80px;
+	width: 5px;
+	background-color: lightgrey;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.circle2{
+	
+	height: 20px;
+	width: 20px;
+	background-color: royalblue;
+	border-radius: 50%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.schooling{
+	width: 200px;
+   margin-left: -850%;
+  overflow: hidden;
+}
+
+.year{
+	font-size: 14px;
+	color: grey;
+	width: 100px;
+   
+}
+
+.percentage{
+	font-size: 14px;
+	color: grey;
+}
+
+.graduation{
+	width: 200px;
+   overflow: hidden;
+   margin-left: 150%;
+}
+
+.pgraduation{
+	width: 200px;
+   overflow: hidden;
+   margin-left: -500%;
+}
+
+
+
+@media (min-width: 100px) and (max-width: 500px){
+ 
+ .schooling{
+ 	margin-left: ;
+	width: 200px;
+	font-size: 13px;
+   margin-left: -730%;
+  overflow: hidden;
+}
+
+.year{
+	font-size: 12px;
+	color: grey;
+	width: 100px;
+   
+}
+
+.percentage{
+	font-size: 12px;
+	color: grey;
+}
+
+.graduation{
+	width: 200px;
+	font-size: 13px;
+   overflow: hidden;
+   margin-left: 150%;
+}
+   
+ .pgraduation{
+	width: 200px;
+	font-size: 13px;
+   overflow: hidden;
+   margin-left: -500%;
+
+
+ 
+}
+
+ }
+
+ #work{
+
+ 	margin-top: 30px;
+ 	text-align: center;
+   margin-bottom: 300px;
+ }
+
+
+
+ .container{
+ 	margin-top: 150px;
+ 	position: relative;
+ 	height: 200px;
+ 	padding: 20px;
+ 	display: flex;
+ 	justify-content: center;
+ 	align-items: center;
+ }
+
+ .container .card{
+ 	position: relative;
+ 	width: 300px;
+ 	height: 420px;
+ 	background-color: #fff;
+ 	margin:  20px;
+ 	border-radius: 20px;
+ 	overflow: hidden;
+ 	box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+ 	
+ }
+
+ .container:hover .card{
+	filter: blur(20px);
+	transform: scale(0.9);
+	opacity: 0.5;
+}
+
+.container .card:hover{
+	filter: blur(0px);
+	transform: scale(1);
+	opacity: 1;
+}
+
+ .container .card .circles{
+ 	position: relative;
+ 	width: 100%;
+ 	height: 100%;
+ 	background: #000;
+ 	clip-path: circle(150px at center 0px);
+ 	text-align: center;
+ }
+
+ .container .card .circles h3{
+ 	color: #fff;
+ 	font-size: 2em;
+ 	padding: 30px 0;
+ }
+
+
+.container .card .content{
+	position: absolute;
+	bottom: 10px;
+	padding-bottom: 20px;
+	text-align: center;
+}
+
+  .container .card .content p{
+ 	color: #666;
+ } 
+
+  .container .card .content a{
+ 	 position: relative;
+ 	 display: inline-block;
+ 	 padding: 10px 20px ;
+ 	 background-color: #000;
+ 	 color: #fff;
+ 	 border-radius: 40px;
+ 	 text-decoration: none;
+ 	 margin-top: 20px;
+
+ } 
+
+
+ .container .card:nth-child(1) .circles,
+ .container .card:nth-child(1) .content a
+ {
+ 	background-color: #ffaf00;
+ 	transition: background-color 1s;
+ }
+
+
+ .container .card:nth-child(1) .content a:hover
+ {
+   background-color: black;
+ }
+
+ .container .card:nth-child(2) .circles,
+ .container .card:nth-child(2) .content a
+ {
+ 	background-color: hotpink;
+ 	transition: background-color 1s;
+ }
+
+.container .card:nth-child(2) .content a:hover
+ {
+   background-color: black;
+ }
+
+.container .card:nth-child(3) .circles,
+ .container .card:nth-child(3) .content a
+ {
+ 	background-color: rebeccapurple;
+ 	transition: background-color 1s;
+ }
+
+.container .card:nth-child(3) .content a:hover
+ {
+   background-color: black;
+ }
+
+@media (min-width: 100px) and (max-width: 800px){
+ 
+    .container .card:nth-child(1){
+    	display: block;
+    	transform: translate(360px);
+    }
+
+    .container .card:nth-child(2){
+      display: block;
+    	margin-top: 900px;
+    	transform: translate(20px);
+    }
+
+    .container .card:nth-child(3){
+    	display: block;
+    	margin-top: 1780px;
+    	transform: translate(-320px);
+    }
+
+
+
+
+ }
+
+ form{
+ 	width: 500px;
+ 	margin: auto;
+ }
