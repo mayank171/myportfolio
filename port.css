@@ -604,10 +604,10 @@
  } 
 
 
- .container .card:nth-child(1) .circles,
+.container .card:nth-child(1) .circles,
  .container .card:nth-child(1) .content a
  {
- 	background-color: #ffaf00;
+ 	background-color: linear-gradient(to right, #fc5c7d, #6a82fb);
  	transition: background-color 1s;
  }
 
@@ -620,7 +620,7 @@
  .container .card:nth-child(2) .circles,
  .container .card:nth-child(2) .content a
  {
- 	background-color: hotpink;
+ 	background-color: linear-gradient(to right, #000428, #004e92);
  	transition: background-color 1s;
  }
 
@@ -632,7 +632,7 @@
 .container .card:nth-child(3) .circles,
  .container .card:nth-child(3) .content a
  {
- 	background-color: rebeccapurple;
+ 	background-color: linear-gradient(to right, #ffd89b, #19547b);
  	transition: background-color 1s;
  }
 
